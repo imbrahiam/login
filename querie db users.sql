@@ -17,4 +17,4 @@ INSERT INTO usuarios (username, nombre, apellido, phone, email, password) VALUES
 
 select * from usuarios;
 
---drop database users;
+/*drop database users;*/
