@@ -49,9 +49,9 @@ Esta es una sencilla aplicación hecha en Java Swing (Ant Project) que demuestra
 ### 💻 ¿Cómo correrlo?
 
 1. Clona el repositorio.
-2. Abre una terminal y navega hasta el directorio del proyecto.
-3. Compila los archivos Java: `javac Main.java LoginFrame.java`
-4. Ejecuta la aplicación: `java Main`
+2. Abre el directorio del proyecto en tu IDE.
+3. Crea la base de datos con el archivo: `query db users.sql`
+4. Ejecuta la aplicación: `LoginProject`
 
 ## 📋 Uso
 
