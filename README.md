@@ -50,13 +50,20 @@ Esta es una sencilla aplicación hecha en Java Swing (Ant Project) que demuestra
 
 1. Clona el repositorio.
 2. Abre el directorio del proyecto en tu IDE.
-3. Crea la base de datos con el archivo: `query db users.sql`
-4. Ejecuta la aplicación: `LoginProject`
+3. Crea la base de datos con el archivo dentro de la carpeta src: `query db users.sql`
+
+![image](https://github.com/imbrahiam/login/assets/96854137/4c7fb079-7b3b-4713-b657-6139c28081aa)
+
+4. Edita las variables dbuser y pass de la clase DatabaseHandler:
+   
+![image](https://github.com/imbrahiam/login/assets/96854137/50b46853-8b8b-495b-a681-52a80f621f0b)
+
+5. Ejecuta el main: `LoginProject.java`
 
 ## 📋 Uso
 
 1. Inicia la aplicación.
-2. Regístrate.
+2. Regístrate o Ingresa con la cuenta default (ibx, root).
 3. Ingresa tu nombre de usuario y contraseña.
 4. Haz clic en el botón "Iniciar sesión" para acceder.
 
