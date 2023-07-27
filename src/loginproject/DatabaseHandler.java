@@ -7,6 +7,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DatabaseHandler {
+    
+    private static String dbuser = "root";
+    private static String pass = "Brahiam2004$";
 
     public static boolean create(Usuario user) {
         
@@ -14,7 +17,7 @@ public class DatabaseHandler {
         
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/users", "root", "root");
+            Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/users", dbuser, pass);
 
             UsuarioDAO usuarioDAO = new UsuarioDAOImpl(conexion);
             
@@ -35,7 +38,7 @@ public class DatabaseHandler {
         
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/users", "root", "root");
+            Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/users", dbuser, pass);
 
             UsuarioDAO usuarioDAO = new UsuarioDAOImpl(conexion);
             
@@ -55,7 +58,7 @@ public class DatabaseHandler {
         
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/users", "root", "root");
+            Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/users", dbuser, pass);
 
             UsuarioDAO usuarioDAO = new UsuarioDAOImpl(conexion);
             
@@ -75,7 +78,7 @@ public class DatabaseHandler {
          
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/users", "root", "root");
+            Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/users",dbuser, pass);
 
             UsuarioDAO usuarioDAO = new UsuarioDAOImpl(conexion);
 
@@ -96,7 +99,7 @@ public class DatabaseHandler {
         
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/users", "root", "root");
+            Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/users", dbuser, pass);
 
             UsuarioDAO usuarioDAO = new UsuarioDAOImpl(conexion);
             
@@ -121,7 +124,7 @@ public class DatabaseHandler {
         
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/users", "root", "root");
+            Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/users", dbuser, pass);
 
             UsuarioDAO usuarioDAO = new UsuarioDAOImpl(conexion);
             
@@ -144,7 +147,7 @@ public class DatabaseHandler {
         
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/users", "root", "root");
+            Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/users", dbuser, pass);
 
             UsuarioDAO usuarioDAO = new UsuarioDAOImpl(conexion);
             

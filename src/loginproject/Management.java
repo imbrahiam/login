@@ -112,7 +112,7 @@ public class Management extends javax.swing.JFrame {
         });
 
         Logo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Logo.setIcon(new javax.swing.ImageIcon("C:\\Users\\brahiam\\Documents\\NetBeansProjects\\LoginProject\\src\\Icon\\log.png")); // NOI18N
+        Logo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loginproject/Icon/log.png"))); // NOI18N
         Logo.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         sessionUser.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -131,7 +131,7 @@ public class Management extends javax.swing.JFrame {
             }
         });
 
-        Logout.setIcon(new javax.swing.ImageIcon("C:\\Users\\brahiam\\Documents\\NetBeansProjects\\LoginProject\\src\\Icon\\logout.png")); // NOI18N
+        Logout.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loginproject/Icon/logout.png"))); // NOI18N
         Logout.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         Logout.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -209,7 +209,7 @@ public class Management extends javax.swing.JFrame {
                     .addGroup(ContainerLayout.createSequentialGroup()
                         .addGap(32, 32, 32)
                         .addComponent(Logout)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 14, Short.MAX_VALUE)
                         .addComponent(Firma)
                         .addContainerGap())
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, ContainerLayout.createSequentialGroup()

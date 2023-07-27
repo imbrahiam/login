@@ -91,7 +91,7 @@ public class Register extends javax.swing.JFrame {
             }
         });
 
-        Logo.setIcon(new javax.swing.ImageIcon("C:\\Users\\brahiam\\Documents\\NetBeansProjects\\LoginProject\\src\\Icon\\log.png")); // NOI18N
+        Logo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loginproject/Icon/log.png"))); // NOI18N
         Logo.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         Back.setForeground(new java.awt.Color(53, 133, 250));
